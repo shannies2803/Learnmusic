@@ -3,9 +3,8 @@
    Leave supabaseUrl empty to run the site in PREVIEW MODE (no logins, no payments;
    a switch at the top lets you look at the site as a free or a paying family). */
 window.TR_CONFIG = {
-  siteName: "The Theory Room",
+  siteName: "Family Music Room",
   familyEdition: true,         // everything open, no plans or prices, progress on this device
-  maxLearners: 6,
   siteUrl: "",                 // e.g. "https://thetheoryroom.com" (no slash at the end)
   contactEmail: "",            // e.g. "hello@thetheoryroom.com"
 
@@ -32,7 +31,7 @@ window.TR_CONFIG = {
     teacher: "S$99"
   },
 
-  maxLearners: 3,
+  maxLearners: 6,
   freeComposers: ["beethoven"],  // composer films anyone can watch
   freeGrades: [0, 1]           // grades open without a plan (0 = Initial; theory drills and aural)
 };
